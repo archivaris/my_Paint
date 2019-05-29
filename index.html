@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Paint</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<br>
+<div class="btn-group" style="width:20%">
+    <button style="width:33.3%;" id="clear" class="fas fa-dumpster">Clear</button>
+    <button style="width:33.3%" id="full" class="fas fa-fill">Full</button>
+    <button style="width:33.3%" id="gum" class=" fas fa-eraser">Gum</button>
+</div>
+<br>
+<div class="btn-group" style="width:20%">
+    <button style="width:33.3%" id="brush5" class=" fa fa-paint-brush"> 05px Brush</button>
+    <button style="width:33.3%" id="brush10" class=" fa fa-paint-brush">10px Brush</button>
+    <button style="width:33.3%" id="brush25" class=" fa fa-paint-brush">25px Brush</button>
+</div>
+<br>
+<div class="btn-group" style="width:50%">
+    <button style="width:10%" id="line" class="fas fa-grip-lines-vertical">Straight Line</button>
+    <button style="width: 10%" id="empty_circle" class=" far fa-circle">Empty Circle</button>
+    <button style="width:10%" id="filled_circle" class=" fa fa-circle">Filled Circle</button>
+    <button style="width:10%" id="empty_square" class=" far fa-square">Empty Square</button>
+    <button style="width:10%" id="filled_square" class=" fa fa-square">Filled Square</button>
+</div>
+<br>
+<div class=btn-group>
+    <input type='color' id='colorpicker' value='#3355cc'/>
+    <input type="file" id="imagepicker"/>
+</div>
+<br>
+
+<canvas id=" canvas" width="1500px" height="600px"></canvas>
+</body>
+<footer>
+
+</footer>
+</html>

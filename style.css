@@ -1,0 +1,32 @@
+canvas {
+    border: 5px solid saddlebrown;
+    background-color: white;
+}
+
+body {
+    background-color: rgb(134,209,78);
+    border: 3px solid saddlebrown;
+}
+
+.btn-group button {
+    background-color: #0041af;
+    border: 3px solid saddlebrown;
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+}
+
+.btn-group button:hover {
+    background-color: #2e778e;
+}
